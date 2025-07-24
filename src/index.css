@@ -8,33 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 43 100% 98%;
+    --foreground: 24 33% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 24 33% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 24 33% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 31 95% 58%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 43 25% 92%;
+    --secondary-foreground: 24 33% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 43 25% 95%;
+    --muted-foreground: 24 15% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 38 80% 70%;
+    --accent-foreground: 24 33% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 43 20% 88%;
+    --input: 43 20% 88%;
+    --ring: 31 95% 58%;
+
+    /* Cat-themed gradients and colors */
+    --gradient-warm: linear-gradient(135deg, hsl(31 95% 58%), hsl(38 80% 70%));
+    --gradient-background: linear-gradient(180deg, hsl(43 100% 98%), hsl(43 50% 96%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(43 25% 98%));
+    
+    /* Cat personality colors */
+    --playful: 45 100% 65%;
+    --calm: 200 25% 70%;
+    --energetic: 15 90% 65%;
+    --social: 280 60% 70%;
+    
+    /* Shadows with warm tones */
+    --shadow-warm: 0 10px 30px -10px hsl(31 95% 58% / 0.2);
+    --shadow-soft: 0 4px 20px -4px hsl(24 33% 15% / 0.1);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 0.5rem;
 
